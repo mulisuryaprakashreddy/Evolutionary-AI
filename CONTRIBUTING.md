@@ -1,6 +1,6 @@
-# Contributing to E-AI
+# Contributing to Evolutionary-AI
 
-Thanks for looking at this. AICrew started as one person's attempt to trace how work moves from paper → software → AI-assisted software → digital employees → digital organizations. It's grown past what one person can build alone, and that's the point — the project only proves its own thesis if more than one mind is behind it.
+Thanks for looking at this. E-AI started as one person's attempt to trace how work moves from paper → software → AI-assisted software → digital employees → digital organizations. It's grown past what one person can build alone, and that's the point — the project only proves its own thesis if more than one mind is behind it.
 
 If you've ever thought *"a calculator helps an accountant, but it isn't one"* and wondered what it'd take to build the accountant instead of the calculator — you're in the right place.
 
