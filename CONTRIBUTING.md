@@ -12,6 +12,7 @@ If you've ever thought *"a calculator helps an accountant, but it isn't one"* an
 - [PR checklist](#pr-checklist)
 - [Design guidelines & scope](#design-guidelines--scope)
 - [Licensing and contributor agreement](#licensing-and-contributor-agreement)
+- [Security](#security)
 - [Code of Conduct](#code-of-conduct)
 - [Communication](#communication)
 - [Maintainers](#maintainers)
@@ -89,6 +90,17 @@ Please do one of the following:
 - explicitly state in your PR description that you license your changes under GPL-3.0
 
 If you're porting code or ideas from another project, confirm you have the right to relicense it under GPL-3.0 and state the provenance in your PR.
+
+## Security
+
+If you discover a security vulnerability, please do NOT open a public issue. Report it privately to the maintainers at: **mulisuryaprakashreddy07@gmail.com** and include:
+
+- a short summary of the issue
+- steps to reproduce or a proof-of-concept
+- the affected version/branch
+- any suggested mitigations or fixes (if known)
+
+We will acknowledge receipt within 48 hours and coordinate disclosure and remediation. For critical vulnerabilities, please mark the email subject as "SECURITY: [short summary]".
 
 ## Code of Conduct
 
