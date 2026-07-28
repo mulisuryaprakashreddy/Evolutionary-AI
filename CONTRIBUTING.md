@@ -1,4 +1,4 @@
-# Contributing to AICrew
+# Contributing to E-AI
 
 Thanks for looking at this. AICrew started as one person's attempt to trace how work moves from paper → software → AI-assisted software → digital employees → digital organizations. It's grown past what one person can build alone, and that's the point — the project only proves its own thesis if more than one mind is behind it.
 
