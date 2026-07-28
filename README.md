@@ -1,4 +1,4 @@
-# AICrew
+# Evolutionary-AI[E-AI]
 
 **From paper, to software, to digital employees.**
 
@@ -66,7 +66,7 @@ Somewhere on that road is exactly where I stand right now — not just watching 
 Each stage holds the same set of domains, so you can trace one problem's evolution across the whole ladder instead of comparing unrelated projects.
 
 ```
-AICrew/
+E-AI/
 │
 ├── README.md
 ├── Documentation/
