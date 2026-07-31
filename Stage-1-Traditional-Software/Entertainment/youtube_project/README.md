@@ -17,9 +17,7 @@ A customizable video-sharing web app built with **Vite + React + TypeScript + Ta
 
 ![Homepage](screenshots/screenshot-homepage.png)
 
-## Live Demo
 
-[ClipShare](https://your-username.github.io/REPO-NAME/stage1/education/youtube_project/)
 
 ## Tech Stack
 
