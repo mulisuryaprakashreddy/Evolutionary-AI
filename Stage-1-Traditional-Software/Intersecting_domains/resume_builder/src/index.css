@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Print styles for PDF export */
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  /* Hide everything by default, show only the resume sheet */
+  body * {
+    visibility: hidden;
+  }
+
+  .resume-sheet,
+  .resume-sheet * {
+    visibility: visible;
+  }
+
+  .resume-sheet {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 2rem !important;
+    min-height: auto !important;
+  }
+}
+
+.resume-page {
+  word-break: break-word;
+}
