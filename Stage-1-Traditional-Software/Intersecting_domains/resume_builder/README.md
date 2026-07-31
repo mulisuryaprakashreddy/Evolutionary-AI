@@ -197,10 +197,4 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## License
-
-This project is open source and available under the MIT License.
-
----
-
 Built with care by the ResumeForge team. Happy building!
