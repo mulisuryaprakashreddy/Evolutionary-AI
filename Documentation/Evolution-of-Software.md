@@ -1,3 +1,0 @@
-# Evolution of Software
-
-TBD
