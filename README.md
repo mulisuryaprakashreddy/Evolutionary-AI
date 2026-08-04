@@ -83,45 +83,47 @@ Somewhere on that road is exactly where I stand right now — not just watching 
 ```
 E-AI/
 │
+├── 01-Using-AI/
+│   ├── README.md
+│   ├── Stage-1-Traditional-Software/
+│   │   ├── Business/
+│   │   ├── Healthcare/
+│   │   ├── Education/
+│   │   ├── Engineering/
+│   │   ├── Finance/
+│   │   └── Science/
+│   │
+│   ├── Stage-2-AI-Assisted-Software/
+│   │   ├── Business/
+│   │   ├── Healthcare/
+│   │   ├── Education/
+│   │   ├── Engineering/
+│   │   ├── Finance/
+│   │   └── Science/
+│   │
+│   ├── Stage-3-Digital-Employees/
+│   │   ├── Business/          → Business Analyst Agent
+│   │   ├── Healthcare/        → Genome Analyst Agent
+│   │   ├── Education/         → AI Tutor Agent
+│   │   └── Finance/           → Financial Analyst Agent
+│   │
+│   ├── Stage-4-Digital-Organizations/
+│   │   └── Multi-Agent-Systems/
+│   │
+│   └── Stage-5-Autonomous-Organizations/
+│       └── Future-Experiments/
+│
+├── 02-Building-AI/
+│   ├── README.md
+│   └── [ML models, algorithms, research implementations]
+│
 ├── README.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── LICENSE
-├── Failures-Experiments/
+├── 03-experiments-failures/
 │
-├── Building-AI/
-│   ├── README.md
-│   └── [ML models, algorithms, research implementations]
-│
-└── Using-AI/
-    ├── README.md
-    ├── Stage-1-Traditional-Software/
-    │   ├── Business/
-    │   ├── Healthcare/
-    │   ├── Education/
-    │   ├── Engineering/
-    │   ├── Finance/
-    │   └── Science/
-    │
-    ├── Stage-2-AI-Assisted-Software/
-    │   ├── Business/
-    │   ├── Healthcare/
-    │   ├── Education/
-    │   ├── Engineering/
-    │   ├── Finance/
-    │   └── Science/
-    │
-    ├── Stage-3-Digital-Employees/
-    │   ├── Business/          → Business Analyst Agent
-    │   ├── Healthcare/        → Genome Analyst Agent
-    │   ├── Education/         → AI Tutor Agent
-    │   └── Finance/           → Financial Analyst Agent
-    │
-    ├── Stage-4-Digital-Organizations/
-    │   └── Multi-Agent-Systems/
-    │
-    └── Stage-5-Autonomous-Organizations/
-        └── Future-Experiments/
+└── Documentation/
 ```
 
 **Note on build order:** I'm not filling every stage evenly — an empty museum with five wings isn't useful. I'm building one domain's full evolution first (currently **Business**), starting with how to turn a traditional business tool into an AI employee capable of solving problems independently.
