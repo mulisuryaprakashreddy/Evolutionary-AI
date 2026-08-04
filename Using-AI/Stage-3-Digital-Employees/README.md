@@ -8,6 +8,6 @@ How do we build the worker, not just the tool?
 
 **Domains:**
 - Business → Business Analyst Agent
-- Healthcare → Genome Analyst Agent
+- Healthcare → Healthcare Agent
 - Education → AI Tutor Agent
 - Finance → Financial Analyst Agent
