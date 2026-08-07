@@ -161,8 +161,4 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 4. Push to the branch
 5. Open a Pull Request
 
----
 
-## License
-
-MIT
