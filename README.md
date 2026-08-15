@@ -126,7 +126,11 @@ E-AI/
 └── Documentation/
 ```
 
-**Note on build order:** I'm not filling every stage evenly — an empty museum with five wings isn't useful. I'm building one domain's full evolution first (currently **Business**), starting with how to turn a traditional business tool into an AI employee capable of solving problems independently.
+**Note on build order:** I'm just getting started with this project, so this isn't meant to be a fully evolved system from day one. I'm starting small and letting it grow over time. Right now, I'm focusing on building one domain properly and exploring how a traditional business tool can evolve into an AI employee that can solve problems more independently.
+
+This is only the beginning, and it will take time to build out the full vision. If you like the idea, feel free to contribute. The repo is intentionally flexible — whatever useful project or idea you build can have a place here, even if it doesn't follow the exact path I'm currently taking.
+
+The goal is to keep building, experimenting, and growing this together. There’s no expectation that everything will be complete immediately — this is just the starting point. 🚀
 
 ---
 
