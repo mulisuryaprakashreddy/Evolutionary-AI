@@ -135,3 +135,5 @@ E-AI/
 I didn't set out to explain AI like a textbook. I set out to show what it looks like from the inside — the ocean I fell into, the one word running all of it, and the road I'm walking, brick by brick.
 
 It's still being written.
+
+AND FOR MORE GO TO THE DOCUMENTATION FOLDER FOR THE ENTIRE DETAILS AND INFROMATION ABOUT THIS TOPIC 
