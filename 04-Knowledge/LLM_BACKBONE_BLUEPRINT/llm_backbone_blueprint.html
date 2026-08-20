@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LLM Backbone Blueprint</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
+<style>
+  body { font-family: -apple-system, sans-serif; background:#0d1117; color:#e6e6e6; padding:20px; }
+  h1 { font-size:20px; }
+  .mermaid { background:#161b22; padding:20px; border-radius:8px; }
+</style>
+</head>
+<body>
+<h1>LLM Backbone Blueprint — Spine Only (swap methods inside each box)</h1>
+<div class="mermaid">
+flowchart TD
+
+A1["1. Raw text corpus"] --> A2["2. Tokenizer<br/>(BPE / char / wordpiece...)"]
+A2 --> A3["3. Text to Token IDs"]
+A3 --> A4["4. Pack into sequences"]
+
+A4 --> B1["5. Token IDs"]
+B1 --> B2["6. Embedding lookup"]
+B2 --> B3["7. Positional encoding<br/>(RoPE / sinusoidal / learned...)"]
+B3 --> C0["8. Hidden state x"]
+
+subgraph BLOCK["Transformer Block (repeat x N)"]
+direction TB
+C0 --> C1["9. Norm"]
+C1 --> C2["10. Project Q,K,V"]
+C2 --> C3["11. Split into heads"]
+C3 --> C4["12. Attention scores<br/>(Q dot K)"]
+C4 --> C5["13. Causal mask"]
+C5 --> C6["14. Softmax"]
+C6 --> C7["15. Weighted sum with V"]
+C7 --> C8["16. Merge heads to output proj"]
+C8 --> C9["17. Residual add"]
+C9 --> C10["18. Norm"]
+C10 --> C11["19. FFN<br/>(expand to activation to project down)"]
+C11 --> C12["20. Residual add"]
+end
+
+C12 --> D0{"21. More layers left?"}
+D0 -- yes --> C0
+D0 -- no --> E1["22. Final norm"]
+E1 --> E2["23. Output proj to vocab logits"]
+
+E2 --> F0{"24. Training or Inference?"}
+
+F0 -- Training --> G1["25. Loss<br/>(predicted vs next token)"]
+G1 --> G2["26. Backward pass"]
+G2 --> G3["27. Clip gradients"]
+G3 --> G4["28. Optimizer step<br/>(AdamW / Lion...)"]
+G4 --> G5["29. LR scheduler step"]
+G5 --> G6["30. Zero gradients"]
+G6 --> G7["31. Checkpoint / eval periodically"]
+G7 --> G8{"32. More batches / epochs left?"}
+G8 -- yes --> B1
+G8 -- no --> H1["33. Trained model"]
+
+F0 -- Inference --> I1["25b. Sample next token<br/>(greedy / top-k / top-p...)"]
+I1 --> I2["26b. Append token to sequence"]
+I2 --> B1
+
+</div>
+<script>mermaid.initialize({startOnLoad:true, theme:'dark'});</script>
+</body>
+</html>
